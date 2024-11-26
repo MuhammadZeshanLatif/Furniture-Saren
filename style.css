@@ -9,14 +9,13 @@
   ================================ */
 :root {
   /* Colors */
-  --primary-color: rgb(142, 145, 148);
+  --primary-color: #8e9194;
   --secondary-color: #e4e4e4;
   --background-color: #f1f1f1;
   --text-color: #0f0f0f;
 
   /* Fonts */
   --font-family-sans: "Manrope", sans-serif;
-  --font-family-serif: "Georgia", serif;
 
   /* Spacing */
   --spacing-sm: 8px;
@@ -99,6 +98,7 @@ nav {
   justify-content: space-between !important;
   border-bottom: 1px solid #b3aaaa6b;
   font-size: 16px;
+  font-family: var(--font-family);
   .logo {
     img {
       width: 100px;
@@ -124,17 +124,69 @@ nav {
   }
 }
 .hero-section {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 2vh 30px;
   .hero-upper {
-    font-size: 122px;
-    line-height: 8rem;
+    font-size: 8vw;
+    font-family: var(--font-family-sans);
+    line-height: 16vh;
     .space {
-        display: flex;
-        justify-content: space-between;
+      display: flex;
+      justify-content: space-between;
     }
     .eleg {
       text-align: end;
     }
   }
+  .hero-lower {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: var(--font-family-sans);
+    color: var(--primary-color);
+
+    .hero-lower-left,
+    .hero-lower-right {
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .hero-lower-right {
+      align-items: end;
+      .hero-lower-img {
+        display: flex;
+        justify-content: flex-end;
+        img {
+          width: 100%;
+          border-radius: 10px;
+        }
+      }
+      .hero-lower-btn {
+        button {
+          display: flex;
+          gap: 8px;
+          padding: 10px 20px;
+          font-size: 16px;
+          background-color: transparent;
+          border: 1px solid #b3aaaa6b;
+          border-radius: 10px;
+          align-items: center;
+          i {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+.welcom-section{
+    height: 200vh;
+    width: 96vw;
+    background-image: url('./imgs/home_parallax_5.jpeg');
+    margin: 0 20px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
