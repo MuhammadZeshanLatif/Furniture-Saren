@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================================
+     ROOT VARIABLES
+  ================================ */
+:root {
+  /* Colors */
+  --primary-color: rgb(142, 145, 148);
+  --secondary-color: #e4e4e4;
+  --background-color: #f1f1f1;
+  --text-color: #0f0f0f;
+
+  /* Fonts */
+  --font-family-sans: "Manrope", sans-serif;
+  --font-family-serif: "Georgia", serif;
+
+  /* Spacing */
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+
+  /* Breakpoints */
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+}
+
+/* ================================
+     BASE STYLES
+  ================================ */
+body {
+  font-family: var(--font-family-sans);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-md);
+}
+
+p {
+  margin-bottom: var(--spacing-md);
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ================================
+     UTILITIES
+  ================================ */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  gap: var(--spacing-md);
+}
+
+@media (max-width: var(--breakpoint-md)) {
+  .container {
+    padding: 0 var(--spacing-md);
+  }
+}
+
+nav {
+  height: 65px;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: space-between !important;
+  border-bottom: 1px solid #b3aaaa6b;
+  font-size: 16px;
+  .logo {
+    img {
+      width: 100px;
+    }
+  }
+  .navBar {
+    ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+  }
+  .shop {
+    text-align: center;
+  }
+  .shop:after {
+    content: "";
+    border-bottom: 1px solid #000000ee;
+    width: 3%;
+    display: block;
+    padding-top: px;
+    position: absolute;
+  }
+}
+.hero-section {
+  padding-left: 30px;
+  padding-right: 30px;
+  .hero-upper {
+    font-size: 122px;
+    line-height: 8rem;
+    .space {
+        display: flex;
+        justify-content: space-between;
+    }
+    .eleg {
+      text-align: end;
+    }
+  }
+}
