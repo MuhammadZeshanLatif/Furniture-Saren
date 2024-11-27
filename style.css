@@ -183,61 +183,64 @@ nav {
     }
   }
 }
-.welcom-section {
-  height: 150vh;
-  width: 97vw;
-  background-image: url("./imgs/home_parallax_5.jpeg");
-  margin: 0 20px;
-  border-radius: 10px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 30px;
-  .welcom-btn button {
-    margin-bottom: 30px;
-    background-color: transparent;
-    display: flex;
-    gap: 12px;
-    padding: 10px;
-    font-size: 14px;
-    background-color: transparent;
-    border: 1px solid #f1f1f178;
-    color: var(--background-color);
+.welcm-outer{
+  padding: 0 20px;
+  background-color: var(--background-color);
+  .welcom-section {
+    background-image: url("./imgs/home_parallax_5.jpeg");
     border-radius: 10px;
-    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    div{
+      height: 100%;
+    }
+    .welcom-btn {
+      height: auto !important;
+      button {
+        margin-bottom: 30px;
+        background-color: transparent;
+        display: flex;
+        gap: 12px;
+        padding: 10px;
+        font-size: 14px;
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    .inner--icon {
-      fill: var(--background-color);
-      width: 18px;
-      display: inline-block;
-      svg{
-        animation: rotateIcon 2s ease-in-out infinite;
+        background-color: transparent;
+        border: 1px solid #f1f1f178;
+        color: var(--background-color);
+        border-radius: 10px;
+        align-items: center;
+        .inner--icon {
+          fill: var(--background-color);
+          width: 18px;
+          display: inline-block;
+          svg{
+            animation: rotateIcon 2s ease-in-out infinite;
+          }
+        
+        }
       }
-    
+    }
+    .welcome-text {
+      color: var(--background-color);
+      font-size: 28px;
+    }
+    .welcom-section-image{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      p{
+        color: var(--background-color);
+        text-align: center;
+      }
+      img{
+        width: 100%;
+        border-radius: 10px;
+      }
     }
   }
-
-  .welcome-text {
-    color: var(--background-color);
-    font-size: 28px;
-  }
 }
+
 
 @keyframes rotateIcon {
   0% {
