@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Manrope";
 }
 
 /* ================================
@@ -92,6 +93,7 @@ a:hover {
 }
 
 nav {
+  background-color: var(--background-color);
   height: 65px;
   padding-left: 30px;
   padding-right: 30px;
@@ -124,6 +126,7 @@ nav {
   }
 }
 .hero-section {
+  background-color: var(--background-color);
   padding: 2vh 30px;
   .hero-upper {
     font-size: 8vw;
@@ -147,7 +150,7 @@ nav {
 
     .hero-lower-left,
     .hero-lower-right {
-      height: 50vh;
+      height: 425px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -180,13 +183,67 @@ nav {
     }
   }
 }
-.welcom-section{
-    height: 200vh;
-    width: 96vw;
-    background-image: url('./imgs/home_parallax_5.jpeg');
-    margin: 0 20px;
+.welcom-section {
+  height: 150vh;
+  width: 97vw;
+  background-image: url("./imgs/home_parallax_5.jpeg");
+  margin: 0 20px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+  .welcom-btn button {
+    margin-bottom: 30px;
+    background-color: transparent;
+    display: flex;
+    gap: 12px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #f1f1f178;
+    color: var(--background-color);
     border-radius: 10px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    align-items: center;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .inner--icon {
+      fill: var(--background-color);
+      width: 18px;
+      display: inline-block;
+      svg{
+        animation: rotateIcon 2s ease-in-out infinite;
+      }
+    
+    }
+  }
+
+  .welcome-text {
+    color: var(--background-color);
+    font-size: 28px;
+  }
+}
+
+@keyframes rotateIcon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
