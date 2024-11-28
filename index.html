@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.16/dist/lenis.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
@@ -67,35 +68,40 @@
             </div>
         </div>
     </section>
-    <section >
+    <section>
         <div class="welcm-outer">
             <div class="welcom-section">
                 <div class="row">
                     <div class="col-lg-12">
-                       <div class="row">
-                        <div class="col-lg-5">
-                            <div class="welcom-btn">
-                                <button> 
-                                  <span class="inner--icon me--rotate">
-                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 148.22 148.22">
-                                      <g id="_2">
-                                        <path d="M145.74,71.76h-59.77s-.03-.03,0-.04l55.29-23.03c1.26-.53,1.82-2.03,1.18-3.27-.57-1.1-1.95-1.5-3.09-1.03l-55.06,22.94s-.04-.02-.02-.04L126.43,25.11c.88-.88,1.02-2.3,.23-3.25-.9-1.07-2.5-1.12-3.47-.16l-42.64,42.64s-.05,0-.04-.02L102.7,8.25c.48-1.21-.11-2.57-1.32-3.05-1.21-.48-2.57,.11-3.05,1.32l-21.83,55.15s-.04,.02-.04,0V2.47c0-1.24-.9-2.35-2.14-2.46-1.39-.12-2.56,.97-2.56,2.34V62.24s-.03,.03-.04,0L48.68,6.97c-.5-1.2-1.88-1.77-3.07-1.27-1.2,.5-1.76,1.88-1.27,3.07l22.98,55.17s-.02,.04-.04,.02L25.03,21.71c-.97-.97-2.57-.92-3.47,.16-.8,.95-.65,2.38,.23,3.25l42.55,42.55s0,.05-.02,.04L8.25,45.51c-1.21-.48-2.57,.11-3.05,1.32-.48,1.21,.11,2.57,1.32,3.05l55.15,21.83s.02,.04,0,.04H2.47c-1.24,0-2.35,.9-2.46,2.14-.12,1.39,.97,2.56,2.34,2.56H62.24s.03,.03,0,.04L6.97,99.53c-1.2,.5-1.76,1.88-1.27,3.07,.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18l55.17-22.98s.04,.02,.02,.04L21.8,123.09c-.96,.96-1.02,2.58-.02,3.49,.45,.41,1.02,.61,1.59,.61,.6,0,1.2-.23,1.66-.69l42.64-42.64s.05,0,.04,.02l-22.19,56.07c-.48,1.21,.11,2.57,1.32,3.05,.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49l21.83-55.15s.04-.02,.04,0v59.19c0,1.24,.9,2.35,2.14,2.46,1.39,.12,2.56-.97,2.56-2.34v-59.89s.03-.03,.04,0l23.03,55.29c.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18,1.2-.5,1.76-1.88,1.27-3.07l-22.98-55.17s.02-.04,.04-.02l42.26,42.26c.46,.46,1.06,.69,1.66,.69,.57,0,1.14-.21,1.59-.61,1-.91,.94-2.54-.02-3.49l-42.54-42.54s0-.05,.02-.04l56.07,22.19c.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49,.48-1.21-.11-2.57-1.32-3.05l-55.15-21.83s-.02-.04,0-.04h59.32c1.37,0,2.46-1.17,2.34-2.56-.11-1.23-1.22-2.14-2.46-2.14Z"></path>
-                                      </g>
-                                    </svg>
-                                  </span>
-                                  WELCOME!
-                                </button>
-                              </div>
-                              
-                            <div class="welcome-text">
-                                <p> At Saren® Furniture, we believe that every home deserves furniture
-                                    that not only looks beautiful but also feels like home. <br> <br>Our carefully curated
-                                    collections are designed to bring a touch of elegance and comfort to your living spaces,
-                                    whether you're looking for modern minimalism or timeless classics.
-                                </p>
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="welcom-btn">
+                                    <button>
+                                        <span class="inner--icon me--rotate">
+                                            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2"
+                                                viewBox="0 0 148.22 148.22">
+                                                <g id="_2">
+                                                    <path
+                                                        d="M145.74,71.76h-59.77s-.03-.03,0-.04l55.29-23.03c1.26-.53,1.82-2.03,1.18-3.27-.57-1.1-1.95-1.5-3.09-1.03l-55.06,22.94s-.04-.02-.02-.04L126.43,25.11c.88-.88,1.02-2.3,.23-3.25-.9-1.07-2.5-1.12-3.47-.16l-42.64,42.64s-.05,0-.04-.02L102.7,8.25c.48-1.21-.11-2.57-1.32-3.05-1.21-.48-2.57,.11-3.05,1.32l-21.83,55.15s-.04,.02-.04,0V2.47c0-1.24-.9-2.35-2.14-2.46-1.39-.12-2.56,.97-2.56,2.34V62.24s-.03,.03-.04,0L48.68,6.97c-.5-1.2-1.88-1.77-3.07-1.27-1.2,.5-1.76,1.88-1.27,3.07l22.98,55.17s-.02,.04-.04,.02L25.03,21.71c-.97-.97-2.57-.92-3.47,.16-.8,.95-.65,2.38,.23,3.25l42.55,42.55s0,.05-.02,.04L8.25,45.51c-1.21-.48-2.57,.11-3.05,1.32-.48,1.21,.11,2.57,1.32,3.05l55.15,21.83s.02,.04,0,.04H2.47c-1.24,0-2.35,.9-2.46,2.14-.12,1.39,.97,2.56,2.34,2.56H62.24s.03,.03,0,.04L6.97,99.53c-1.2,.5-1.76,1.88-1.27,3.07,.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18l55.17-22.98s.04,.02,.02,.04L21.8,123.09c-.96,.96-1.02,2.58-.02,3.49,.45,.41,1.02,.61,1.59,.61,.6,0,1.2-.23,1.66-.69l42.64-42.64s.05,0,.04,.02l-22.19,56.07c-.48,1.21,.11,2.57,1.32,3.05,.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49l21.83-55.15s.04-.02,.04,0v59.19c0,1.24,.9,2.35,2.14,2.46,1.39,.12,2.56-.97,2.56-2.34v-59.89s.03-.03,.04,0l23.03,55.29c.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18,1.2-.5,1.76-1.88,1.27-3.07l-22.98-55.17s.02-.04,.04-.02l42.26,42.26c.46,.46,1.06,.69,1.66,.69,.57,0,1.14-.21,1.59-.61,1-.91,.94-2.54-.02-3.49l-42.54-42.54s0-.05,.02-.04l56.07,22.19c.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49,.48-1.21-.11-2.57-1.32-3.05l-55.15-21.83s-.02-.04,0-.04h59.32c1.37,0,2.46-1.17,2.34-2.56-.11-1.23-1.22-2.14-2.46-2.14Z">
+                                                    </path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                        WELCOME!
+                                    </button>
+                                </div>
+
+                                <div class="welcome-text">
+                                    <p> At Saren® Furniture, we believe that every home deserves furniture
+                                        that not only looks beautiful but also feels like home. <br> <br>Our carefully
+                                        curated
+                                        collections are designed to bring a touch of elegance and comfort to your living
+                                        spaces,
+                                        whether you're looking for modern minimalism or timeless classics.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                       </div>
                     </div>
                     <div class="offset-lg-9 col-lg-3">
                         <div class="welcom-section-image">
@@ -106,15 +112,787 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
-<section>
-    <div class="discover-section">
-        <div class="row">
-            .col-lg-
+
+
+
+    <section>
+        <div class="discover-section">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="discover-sec-svg">
+                        <span class="inner--icon me--rotate">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 148.22 148.22">
+                                <g id="_2">
+                                    <path
+                                        d="M145.74,71.76h-59.77s-.03-.03,0-.04l55.29-23.03c1.26-.53,1.82-2.03,1.18-3.27-.57-1.1-1.95-1.5-3.09-1.03l-55.06,22.94s-.04-.02-.02-.04L126.43,25.11c.88-.88,1.02-2.3,.23-3.25-.9-1.07-2.5-1.12-3.47-.16l-42.64,42.64s-.05,0-.04-.02L102.7,8.25c.48-1.21-.11-2.57-1.32-3.05-1.21-.48-2.57,.11-3.05,1.32l-21.83,55.15s-.04,.02-.04,0V2.47c0-1.24-.9-2.35-2.14-2.46-1.39-.12-2.56,.97-2.56,2.34V62.24s-.03,.03-.04,0L48.68,6.97c-.5-1.2-1.88-1.77-3.07-1.27-1.2,.5-1.76,1.88-1.27,3.07l22.98,55.17s-.02,.04-.04,.02L25.03,21.71c-.97-.97-2.57-.92-3.47,.16-.8,.95-.65,2.38,.23,3.25l42.55,42.55s0,.05-.02,.04L8.25,45.51c-1.21-.48-2.57,.11-3.05,1.32-.48,1.21,.11,2.57,1.32,3.05l55.15,21.83s.02,.04,0,.04H2.47c-1.24,0-2.35,.9-2.46,2.14-.12,1.39,.97,2.56,2.34,2.56H62.24s.03,.03,0,.04L6.97,99.53c-1.2,.5-1.76,1.88-1.27,3.07,.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18l55.17-22.98s.04,.02,.02,.04L21.8,123.09c-.96,.96-1.02,2.58-.02,3.49,.45,.41,1.02,.61,1.59,.61,.6,0,1.2-.23,1.66-.69l42.64-42.64s.05,0,.04,.02l-22.19,56.07c-.48,1.21,.11,2.57,1.32,3.05,.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49l21.83-55.15s.04-.02,.04,0v59.19c0,1.24,.9,2.35,2.14,2.46,1.39,.12,2.56-.97,2.56-2.34v-59.89s.03-.03,.04,0l23.03,55.29c.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18,1.2-.5,1.76-1.88,1.27-3.07l-22.98-55.17s.02-.04,.04-.02l42.26,42.26c.46,.46,1.06,.69,1.66,.69,.57,0,1.14-.21,1.59-.61,1-.91,.94-2.54-.02-3.49l-42.54-42.54s0-.05,.02-.04l56.07,22.19c.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49,.48-1.21-.11-2.57-1.32-3.05l-55.15-21.83s-.02-.04,0-.04h59.32c1.37,0,2.46-1.17,2.34-2.56-.11-1.23-1.22-2.14-2.46-2.14Z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </span>
+                        DISCOVER OUR
+                        <br>
+                        LATEST DESIGNS
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-2">
+                    <div class="discover-sec-text-btn">
+                        <p>Stay ahead of the trends with the newest additions to our collection. At Saren® Furniture, we
+                            continuously update our selection with fresh designs that blend modern aesthetics and
+                            timeless appeal.</p>
+                        <div class="discover-sec-btn">
+                            <button>Shop All <i class="material-icons">arrow_forward</i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <section>
+        <div class="horizontal-slider">
+            <div class="products">
+                <div class="product product1">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="name-price">
+                        <div class="name">
+                            HALO LIGHT
+                        </div>
+                        <div class="price">$50</div>
+                    </div>
+                </div>
+                <div class="product product2">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="name-price">
+                        <div class="name">
+                            HALO LIGHT
+                        </div>
+                        <div class="price">$50</div>
+                    </div>
+                </div>
+                <div class="product product3">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="name-price">
+                        <div class="name">
+                            HALO LIGHT
+                        </div>
+                        <div class="price">$50</div>
+                    </div>
+                </div>
+                <div class="product product4">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="name-price">
+                        <div class="name">
+                            HALO LIGHT
+                        </div>
+                        <div class="price">$50</div>
+                    </div>
+                </div>
+                <div class="product product5">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="name-price">
+                        <div class="name">
+                            HALO LIGHT
+                        </div>
+                        <div class="price">$50</div>
+                    </div>
+                </div>
+                <div class="product product6">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="name-price">
+                        <div class="name">
+                            HALO LIGHT
+                        </div>
+                        <div class="price">$50</div>
+                    </div>
+                </div>
+                <div class="product product7">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="name-price">
+                        <div class="name">
+                            HALO LIGHT
+                        </div>
+                        <div class="price">$50</div>
+                    </div>
+                </div>
+                <div class="product product8">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="name-price">
+                        <div class="name">
+                            HALO LIGHT
+                        </div>
+                        <div class="price">$50</div>
+                    </div>
+                </div>
+                <div class="product product9">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="name-price">
+                        <div class="name">
+                            HALO LIGHT
+                        </div>
+                        <div class="price">$50</div>
+                    </div>
+                </div>
+                <div class="product product10">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="name-price">
+                        <div class="name">
+                            HALO LIGHT
+                        </div>
+                        <div class="price">$50</div>
+                    </div>
+                </div>
+                <div class="product product11">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="name-price">
+                        <div class="name">
+                            HALO LIGHT
+                        </div>
+                        <div class="price">$50</div>
+                    </div>
+                </div>
+                <div class="product product12">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="name-price">
+                        <div class="name">
+                            HALO LIGHT
+                        </div>
+                        <div class="price">$50</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="intro-section">
+            <div class="container">
+                <div class="intro-button">
+                    <button>
+                        <span class="inner--icon me--rotate">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 148.22 148.22">
+                                <g id="_2">
+                                    <path
+                                        d="M145.74,71.76h-59.77s-.03-.03,0-.04l55.29-23.03c1.26-.53,1.82-2.03,1.18-3.27-.57-1.1-1.95-1.5-3.09-1.03l-55.06,22.94s-.04-.02-.02-.04L126.43,25.11c.88-.88,1.02-2.3,.23-3.25-.9-1.07-2.5-1.12-3.47-.16l-42.64,42.64s-.05,0-.04-.02L102.7,8.25c.48-1.21-.11-2.57-1.32-3.05-1.21-.48-2.57,.11-3.05,1.32l-21.83,55.15s-.04,.02-.04,0V2.47c0-1.24-.9-2.35-2.14-2.46-1.39-.12-2.56,.97-2.56,2.34V62.24s-.03,.03-.04,0L48.68,6.97c-.5-1.2-1.88-1.77-3.07-1.27-1.2,.5-1.76,1.88-1.27,3.07l22.98,55.17s-.02,.04-.04,.02L25.03,21.71c-.97-.97-2.57-.92-3.47,.16-.8,.95-.65,2.38,.23,3.25l42.55,42.55s0,.05-.02,.04L8.25,45.51c-1.21-.48-2.57,.11-3.05,1.32-.48,1.21,.11,2.57,1.32,3.05l55.15,21.83s.02,.04,0,.04H2.47c-1.24,0-2.35,.9-2.46,2.14-.12,1.39,.97,2.56,2.34,2.56H62.24s.03,.03,0,.04L6.97,99.53c-1.2,.5-1.76,1.88-1.27,3.07,.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18l55.17-22.98s.04,.02,.02,.04L21.8,123.09c-.96,.96-1.02,2.58-.02,3.49,.45,.41,1.02,.61,1.59,.61,.6,0,1.2-.23,1.66-.69l42.64-42.64s.05,0,.04,.02l-22.19,56.07c-.48,1.21,.11,2.57,1.32,3.05,.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49l21.83-55.15s.04-.02,.04,0v59.19c0,1.24,.9,2.35,2.14,2.46,1.39,.12,2.56-.97,2.56-2.34v-59.89s.03-.03,.04,0l23.03,55.29c.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18,1.2-.5,1.76-1.88,1.27-3.07l-22.98-55.17s.02-.04,.04-.02l42.26,42.26c.46,.46,1.06,.69,1.66,.69,.57,0,1.14-.21,1.59-.61,1-.91,.94-2.54-.02-3.49l-42.54-42.54s0-.05,.02-.04l56.07,22.19c.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49,.48-1.21-.11-2.57-1.32-3.05l-55.15-21.83s-.02-.04,0-.04h59.32c1.37,0,2.46-1.17,2.34-2.56-.11-1.23-1.22-2.14-2.46-2.14Z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </span>
+                        WHO WE ARE?
+                    </button>
+                </div>
+                <div class="intro-heading">
+                    AT SAREN® FURNITURE, WE CREATE BESPOKE FURNITURE AND INTERIORS, ENSURING EVERY PIECE EXCEEDS YOUR
+                    DREAMS & EXPECTATIONS.
+                </div>
+                <div class="intro-text">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <p>
+                                At Saren® Furniture, we are more than just a furniture brand – we are creators of spaces
+                                that inspire. With a passion for craftsmanship and design, we carefully source the
+                                finest
+                                materials and work with skilled artisans to bring you furniture that balances style,
+                                comfort, and durability.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro-lower-btn">
+                    <button>About Us <i class="material-icons">arrow_forward</i></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="decoration-products">
+            <div class="decoration-prod prod-1">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="dec-num">
+                            (01)
+                        </div>
+                        <div class="dec-title">
+                            ARMCHAIRS
+                            <p>Transform Your Space with Comfort and Style</p>
+                        </div>
+                        <div class="dec-text">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    Discover a wide range of sofas, coffee tables, and chairs that blend comfort with
+                                    contemporary design to elevate your living room’s ambiance.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dec-btn">
+                            <button>Shop Aemchairs <i class="material-icons">arrow_forward</i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="dec-img doc-img-1">
+                            <img src="./imgs/privacy_image.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="decoration-prod prod-2">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="dec-num">
+                            (02)
+                        </div>
+                        <div class="dec-title">
+                            SOFAS
+                            <p>Create a Cozy Retreat for Relaxation</p>
+                        </div>
+                        <div class="dec-text">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    Explore our collection of beds, nightstands, and wardrobes crafted to bring serenity
+                                    and luxury into your personal space.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dec-btn">
+                            <button>Shop Sofas <i class="material-icons">arrow_forward</i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="dec-img doc-img-1">
+                            <img src="./imgs/home_cats_2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="decoration-prod prod-3">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="dec-num">
+                            (03)
+                        </div>
+                        <div class="dec-title">
+                            CHAIRS
+                            <p>Dine in Elegance and Comfort</p>
+                        </div>
+                        <div class="dec-text">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    From modern dining tables to stylish chairs, our dining room sets are designed to
+                                    enhance your dining experience and bring people together.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dec-btn">
+                            <button>Shop Chairs <i class="material-icons">arrow_forward</i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="dec-img doc-img-1">
+                            <img src="./imgs/home_cats_3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="decoration-prod prod-4">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="dec-num">
+                            (04)
+                        </div>
+                        <div class="dec-title">
+                            TABLES
+                            <p>Boost Productivity with Ergonomic Design</p>
+                        </div>
+                        <div class="dec-text">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    Furnish your workspace with ergonomic chairs, desks, and storage solutions that
+                                    combine functionality and sophistication for a productive environment.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dec-btn">
+                            <button>Shop Tables <i class="material-icons">arrow_forward</i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="dec-img doc-img-1">
+                            <img src="./imgs/home_cats_1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="onsale">
+            <span class="moving-onscale">
+                <span>
+                    <span class="inner--icon me--rotate">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 148.22 148.22">
+                            <g id="_2">
+                                <path
+                                    d="M145.74,71.76h-59.77s-.03-.03,0-.04l55.29-23.03c1.26-.53,1.82-2.03,1.18-3.27-.57-1.1-1.95-1.5-3.09-1.03l-55.06,22.94s-.04-.02-.02-.04L126.43,25.11c.88-.88,1.02-2.3,.23-3.25-.9-1.07-2.5-1.12-3.47-.16l-42.64,42.64s-.05,0-.04-.02L102.7,8.25c.48-1.21-.11-2.57-1.32-3.05-1.21-.48-2.57,.11-3.05,1.32l-21.83,55.15s-.04,.02-.04,0V2.47c0-1.24-.9-2.35-2.14-2.46-1.39-.12-2.56,.97-2.56,2.34V62.24s-.03,.03-.04,0L48.68,6.97c-.5-1.2-1.88-1.77-3.07-1.27-1.2,.5-1.76,1.88-1.27,3.07l22.98,55.17s-.02,.04-.04,.02L25.03,21.71c-.97-.97-2.57-.92-3.47,.16-.8,.95-.65,2.38,.23,3.25l42.55,42.55s0,.05-.02,.04L8.25,45.51c-1.21-.48-2.57,.11-3.05,1.32-.48,1.21,.11,2.57,1.32,3.05l55.15,21.83s.02,.04,0,.04H2.47c-1.24,0-2.35,.9-2.46,2.14-.12,1.39,.97,2.56,2.34,2.56H62.24s.03,.03,0,.04L6.97,99.53c-1.2,.5-1.76,1.88-1.27,3.07,.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18l55.17-22.98s.04,.02,.02,.04L21.8,123.09c-.96,.96-1.02,2.58-.02,3.49,.45,.41,1.02,.61,1.59,.61,.6,0,1.2-.23,1.66-.69l42.64-42.64s.05,0,.04,.02l-22.19,56.07c-.48,1.21,.11,2.57,1.32,3.05,.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49l21.83-55.15s.04-.02,.04,0v59.19c0,1.24,.9,2.35,2.14,2.46,1.39,.12,2.56-.97,2.56-2.34v-59.89s.03-.03,.04,0l23.03,55.29c.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18,1.2-.5,1.76-1.88,1.27-3.07l-22.98-55.17s.02-.04,.04-.02l42.26,42.26c.46,.46,1.06,.69,1.66,.69,.57,0,1.14-.21,1.59-.61,1-.91,.94-2.54-.02-3.49l-42.54-42.54s0-.05,.02-.04l56.07,22.19c.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49,.48-1.21-.11-2.57-1.32-3.05l-55.15-21.83s-.02-.04,0-.04h59.32c1.37,0,2.46-1.17,2.34-2.56-.11-1.23-1.22-2.14-2.46-2.14Z">
+                                </path>
+                            </g>
+                        </svg>
+                    </span>
+                    &nbsp;&nbsp; ON SALE NOW! &nbsp; &nbsp;
+                </span>
+                <span>
+                    <span class="inner--icon me--rotate">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 148.22 148.22">
+                            <g id="_2">
+                                <path
+                                    d="M145.74,71.76h-59.77s-.03-.03,0-.04l55.29-23.03c1.26-.53,1.82-2.03,1.18-3.27-.57-1.1-1.95-1.5-3.09-1.03l-55.06,22.94s-.04-.02-.02-.04L126.43,25.11c.88-.88,1.02-2.3,.23-3.25-.9-1.07-2.5-1.12-3.47-.16l-42.64,42.64s-.05,0-.04-.02L102.7,8.25c.48-1.21-.11-2.57-1.32-3.05-1.21-.48-2.57,.11-3.05,1.32l-21.83,55.15s-.04,.02-.04,0V2.47c0-1.24-.9-2.35-2.14-2.46-1.39-.12-2.56,.97-2.56,2.34V62.24s-.03,.03-.04,0L48.68,6.97c-.5-1.2-1.88-1.77-3.07-1.27-1.2,.5-1.76,1.88-1.27,3.07l22.98,55.17s-.02,.04-.04,.02L25.03,21.71c-.97-.97-2.57-.92-3.47,.16-.8,.95-.65,2.38,.23,3.25l42.55,42.55s0,.05-.02,.04L8.25,45.51c-1.21-.48-2.57,.11-3.05,1.32-.48,1.21,.11,2.57,1.32,3.05l55.15,21.83s.02,.04,0,.04H2.47c-1.24,0-2.35,.9-2.46,2.14-.12,1.39,.97,2.56,2.34,2.56H62.24s.03,.03,0,.04L6.97,99.53c-1.2,.5-1.76,1.88-1.27,3.07,.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18l55.17-22.98s.04,.02,.02,.04L21.8,123.09c-.96,.96-1.02,2.58-.02,3.49,.45,.41,1.02,.61,1.59,.61,.6,0,1.2-.23,1.66-.69l42.64-42.64s.05,0,.04,.02l-22.19,56.07c-.48,1.21,.11,2.57,1.32,3.05,.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49l21.83-55.15s.04-.02,.04,0v59.19c0,1.24,.9,2.35,2.14,2.46,1.39,.12,2.56-.97,2.56-2.34v-59.89s.03-.03,.04,0l23.03,55.29c.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18,1.2-.5,1.76-1.88,1.27-3.07l-22.98-55.17s.02-.04,.04-.02l42.26,42.26c.46,.46,1.06,.69,1.66,.69,.57,0,1.14-.21,1.59-.61,1-.91,.94-2.54-.02-3.49l-42.54-42.54s0-.05,.02-.04l56.07,22.19c.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49,.48-1.21-.11-2.57-1.32-3.05l-55.15-21.83s-.02-.04,0-.04h59.32c1.37,0,2.46-1.17,2.34-2.56-.11-1.23-1.22-2.14-2.46-2.14Z">
+                                </path>
+                            </g>
+                        </svg>
+                    </span>
+                    &nbsp;&nbsp; ON SALE NOW! &nbsp; &nbsp;
+                </span>
+                <span>
+                    <span class="inner--icon me--rotate">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 148.22 148.22">
+                            <g id="_2">
+                                <path
+                                    d="M145.74,71.76h-59.77s-.03-.03,0-.04l55.29-23.03c1.26-.53,1.82-2.03,1.18-3.27-.57-1.1-1.95-1.5-3.09-1.03l-55.06,22.94s-.04-.02-.02-.04L126.43,25.11c.88-.88,1.02-2.3,.23-3.25-.9-1.07-2.5-1.12-3.47-.16l-42.64,42.64s-.05,0-.04-.02L102.7,8.25c.48-1.21-.11-2.57-1.32-3.05-1.21-.48-2.57,.11-3.05,1.32l-21.83,55.15s-.04,.02-.04,0V2.47c0-1.24-.9-2.35-2.14-2.46-1.39-.12-2.56,.97-2.56,2.34V62.24s-.03,.03-.04,0L48.68,6.97c-.5-1.2-1.88-1.77-3.07-1.27-1.2,.5-1.76,1.88-1.27,3.07l22.98,55.17s-.02,.04-.04,.02L25.03,21.71c-.97-.97-2.57-.92-3.47,.16-.8,.95-.65,2.38,.23,3.25l42.55,42.55s0,.05-.02,.04L8.25,45.51c-1.21-.48-2.57,.11-3.05,1.32-.48,1.21,.11,2.57,1.32,3.05l55.15,21.83s.02,.04,0,.04H2.47c-1.24,0-2.35,.9-2.46,2.14-.12,1.39,.97,2.56,2.34,2.56H62.24s.03,.03,0,.04L6.97,99.53c-1.2,.5-1.76,1.88-1.27,3.07,.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18l55.17-22.98s.04,.02,.02,.04L21.8,123.09c-.96,.96-1.02,2.58-.02,3.49,.45,.41,1.02,.61,1.59,.61,.6,0,1.2-.23,1.66-.69l42.64-42.64s.05,0,.04,.02l-22.19,56.07c-.48,1.21,.11,2.57,1.32,3.05,.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49l21.83-55.15s.04-.02,.04,0v59.19c0,1.24,.9,2.35,2.14,2.46,1.39,.12,2.56-.97,2.56-2.34v-59.89s.03-.03,.04,0l23.03,55.29c.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18,1.2-.5,1.76-1.88,1.27-3.07l-22.98-55.17s.02-.04,.04-.02l42.26,42.26c.46,.46,1.06,.69,1.66,.69,.57,0,1.14-.21,1.59-.61,1-.91,.94-2.54-.02-3.49l-42.54-42.54s0-.05,.02-.04l56.07,22.19c.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49,.48-1.21-.11-2.57-1.32-3.05l-55.15-21.83s-.02-.04,0-.04h59.32c1.37,0,2.46-1.17,2.34-2.56-.11-1.23-1.22-2.14-2.46-2.14Z">
+                                </path>
+                            </g>
+                        </svg>
+                    </span>
+                    &nbsp;&nbsp; ON SALE NOW! &nbsp; &nbsp;
+                </span>
+                <span>
+                    <span class="inner--icon me--rotate">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 148.22 148.22">
+                            <g id="_2">
+                                <path
+                                    d="M145.74,71.76h-59.77s-.03-.03,0-.04l55.29-23.03c1.26-.53,1.82-2.03,1.18-3.27-.57-1.1-1.95-1.5-3.09-1.03l-55.06,22.94s-.04-.02-.02-.04L126.43,25.11c.88-.88,1.02-2.3,.23-3.25-.9-1.07-2.5-1.12-3.47-.16l-42.64,42.64s-.05,0-.04-.02L102.7,8.25c.48-1.21-.11-2.57-1.32-3.05-1.21-.48-2.57,.11-3.05,1.32l-21.83,55.15s-.04,.02-.04,0V2.47c0-1.24-.9-2.35-2.14-2.46-1.39-.12-2.56,.97-2.56,2.34V62.24s-.03,.03-.04,0L48.68,6.97c-.5-1.2-1.88-1.77-3.07-1.27-1.2,.5-1.76,1.88-1.27,3.07l22.98,55.17s-.02,.04-.04,.02L25.03,21.71c-.97-.97-2.57-.92-3.47,.16-.8,.95-.65,2.38,.23,3.25l42.55,42.55s0,.05-.02,.04L8.25,45.51c-1.21-.48-2.57,.11-3.05,1.32-.48,1.21,.11,2.57,1.32,3.05l55.15,21.83s.02,.04,0,.04H2.47c-1.24,0-2.35,.9-2.46,2.14-.12,1.39,.97,2.56,2.34,2.56H62.24s.03,.03,0,.04L6.97,99.53c-1.2,.5-1.76,1.88-1.27,3.07,.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18l55.17-22.98s.04,.02,.02,.04L21.8,123.09c-.96,.96-1.02,2.58-.02,3.49,.45,.41,1.02,.61,1.59,.61,.6,0,1.2-.23,1.66-.69l42.64-42.64s.05,0,.04,.02l-22.19,56.07c-.48,1.21,.11,2.57,1.32,3.05,.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49l21.83-55.15s.04-.02,.04,0v59.19c0,1.24,.9,2.35,2.14,2.46,1.39,.12,2.56-.97,2.56-2.34v-59.89s.03-.03,.04,0l23.03,55.29c.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18,1.2-.5,1.76-1.88,1.27-3.07l-22.98-55.17s.02-.04,.04-.02l42.26,42.26c.46,.46,1.06,.69,1.66,.69,.57,0,1.14-.21,1.59-.61,1-.91,.94-2.54-.02-3.49l-42.54-42.54s0-.05,.02-.04l56.07,22.19c.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49,.48-1.21-.11-2.57-1.32-3.05l-55.15-21.83s-.02-.04,0-.04h59.32c1.37,0,2.46-1.17,2.34-2.56-.11-1.23-1.22-2.14-2.46-2.14Z">
+                                </path>
+                            </g>
+                        </svg>
+                    </span>
+                    &nbsp;&nbsp; ON SALE NOW! &nbsp; &nbsp;
+                </span>
+                <span>
+                    <span class="inner--icon me--rotate">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 148.22 148.22">
+                            <g id="_2">
+                                <path
+                                    d="M145.74,71.76h-59.77s-.03-.03,0-.04l55.29-23.03c1.26-.53,1.82-2.03,1.18-3.27-.57-1.1-1.95-1.5-3.09-1.03l-55.06,22.94s-.04-.02-.02-.04L126.43,25.11c.88-.88,1.02-2.3,.23-3.25-.9-1.07-2.5-1.12-3.47-.16l-42.64,42.64s-.05,0-.04-.02L102.7,8.25c.48-1.21-.11-2.57-1.32-3.05-1.21-.48-2.57,.11-3.05,1.32l-21.83,55.15s-.04,.02-.04,0V2.47c0-1.24-.9-2.35-2.14-2.46-1.39-.12-2.56,.97-2.56,2.34V62.24s-.03,.03-.04,0L48.68,6.97c-.5-1.2-1.88-1.77-3.07-1.27-1.2,.5-1.76,1.88-1.27,3.07l22.98,55.17s-.02,.04-.04,.02L25.03,21.71c-.97-.97-2.57-.92-3.47,.16-.8,.95-.65,2.38,.23,3.25l42.55,42.55s0,.05-.02,.04L8.25,45.51c-1.21-.48-2.57,.11-3.05,1.32-.48,1.21,.11,2.57,1.32,3.05l55.15,21.83s.02,.04,0,.04H2.47c-1.24,0-2.35,.9-2.46,2.14-.12,1.39,.97,2.56,2.34,2.56H62.24s.03,.03,0,.04L6.97,99.53c-1.2,.5-1.76,1.88-1.27,3.07,.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18l55.17-22.98s.04,.02,.02,.04L21.8,123.09c-.96,.96-1.02,2.58-.02,3.49,.45,.41,1.02,.61,1.59,.61,.6,0,1.2-.23,1.66-.69l42.64-42.64s.05,0,.04,.02l-22.19,56.07c-.48,1.21,.11,2.57,1.32,3.05,.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49l21.83-55.15s.04-.02,.04,0v59.19c0,1.24,.9,2.35,2.14,2.46,1.39,.12,2.56-.97,2.56-2.34v-59.89s.03-.03,.04,0l23.03,55.29c.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18,1.2-.5,1.76-1.88,1.27-3.07l-22.98-55.17s.02-.04,.04-.02l42.26,42.26c.46,.46,1.06,.69,1.66,.69,.57,0,1.14-.21,1.59-.61,1-.91,.94-2.54-.02-3.49l-42.54-42.54s0-.05,.02-.04l56.07,22.19c.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49,.48-1.21-.11-2.57-1.32-3.05l-55.15-21.83s-.02-.04,0-.04h59.32c1.37,0,2.46-1.17,2.34-2.56-.11-1.23-1.22-2.14-2.46-2.14Z">
+                                </path>
+                            </g>
+                        </svg>
+                    </span>
+                    &nbsp;&nbsp; ON SALE NOW! &nbsp; &nbsp;
+                </span>
+                <span>
+                    <span class="inner--icon me--rotate">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 148.22 148.22">
+                            <g id="_2">
+                                <path
+                                    d="M145.74,71.76h-59.77s-.03-.03,0-.04l55.29-23.03c1.26-.53,1.82-2.03,1.18-3.27-.57-1.1-1.95-1.5-3.09-1.03l-55.06,22.94s-.04-.02-.02-.04L126.43,25.11c.88-.88,1.02-2.3,.23-3.25-.9-1.07-2.5-1.12-3.47-.16l-42.64,42.64s-.05,0-.04-.02L102.7,8.25c.48-1.21-.11-2.57-1.32-3.05-1.21-.48-2.57,.11-3.05,1.32l-21.83,55.15s-.04,.02-.04,0V2.47c0-1.24-.9-2.35-2.14-2.46-1.39-.12-2.56,.97-2.56,2.34V62.24s-.03,.03-.04,0L48.68,6.97c-.5-1.2-1.88-1.77-3.07-1.27-1.2,.5-1.76,1.88-1.27,3.07l22.98,55.17s-.02,.04-.04,.02L25.03,21.71c-.97-.97-2.57-.92-3.47,.16-.8,.95-.65,2.38,.23,3.25l42.55,42.55s0,.05-.02,.04L8.25,45.51c-1.21-.48-2.57,.11-3.05,1.32-.48,1.21,.11,2.57,1.32,3.05l55.15,21.83s.02,.04,0,.04H2.47c-1.24,0-2.35,.9-2.46,2.14-.12,1.39,.97,2.56,2.34,2.56H62.24s.03,.03,0,.04L6.97,99.53c-1.2,.5-1.76,1.88-1.27,3.07,.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18l55.17-22.98s.04,.02,.02,.04L21.8,123.09c-.96,.96-1.02,2.58-.02,3.49,.45,.41,1.02,.61,1.59,.61,.6,0,1.2-.23,1.66-.69l42.64-42.64s.05,0,.04,.02l-22.19,56.07c-.48,1.21,.11,2.57,1.32,3.05,.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49l21.83-55.15s.04-.02,.04,0v59.19c0,1.24,.9,2.35,2.14,2.46,1.39,.12,2.56-.97,2.56-2.34v-59.89s.03-.03,.04,0l23.03,55.29c.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18,1.2-.5,1.76-1.88,1.27-3.07l-22.98-55.17s.02-.04,.04-.02l42.26,42.26c.46,.46,1.06,.69,1.66,.69,.57,0,1.14-.21,1.59-.61,1-.91,.94-2.54-.02-3.49l-42.54-42.54s0-.05,.02-.04l56.07,22.19c.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49,.48-1.21-.11-2.57-1.32-3.05l-55.15-21.83s-.02-.04,0-.04h59.32c1.37,0,2.46-1.17,2.34-2.56-.11-1.23-1.22-2.14-2.46-2.14Z">
+                                </path>
+                            </g>
+                        </svg>
+                    </span>
+                    &nbsp;&nbsp; ON SALE NOW! &nbsp; &nbsp;
+                </span>
+                <span>
+                    <span class="inner--icon me--rotate">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 148.22 148.22">
+                            <g id="_2">
+                                <path
+                                    d="M145.74,71.76h-59.77s-.03-.03,0-.04l55.29-23.03c1.26-.53,1.82-2.03,1.18-3.27-.57-1.1-1.95-1.5-3.09-1.03l-55.06,22.94s-.04-.02-.02-.04L126.43,25.11c.88-.88,1.02-2.3,.23-3.25-.9-1.07-2.5-1.12-3.47-.16l-42.64,42.64s-.05,0-.04-.02L102.7,8.25c.48-1.21-.11-2.57-1.32-3.05-1.21-.48-2.57,.11-3.05,1.32l-21.83,55.15s-.04,.02-.04,0V2.47c0-1.24-.9-2.35-2.14-2.46-1.39-.12-2.56,.97-2.56,2.34V62.24s-.03,.03-.04,0L48.68,6.97c-.5-1.2-1.88-1.77-3.07-1.27-1.2,.5-1.76,1.88-1.27,3.07l22.98,55.17s-.02,.04-.04,.02L25.03,21.71c-.97-.97-2.57-.92-3.47,.16-.8,.95-.65,2.38,.23,3.25l42.55,42.55s0,.05-.02,.04L8.25,45.51c-1.21-.48-2.57,.11-3.05,1.32-.48,1.21,.11,2.57,1.32,3.05l55.15,21.83s.02,.04,0,.04H2.47c-1.24,0-2.35,.9-2.46,2.14-.12,1.39,.97,2.56,2.34,2.56H62.24s.03,.03,0,.04L6.97,99.53c-1.2,.5-1.76,1.88-1.27,3.07,.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18l55.17-22.98s.04,.02,.02,.04L21.8,123.09c-.96,.96-1.02,2.58-.02,3.49,.45,.41,1.02,.61,1.59,.61,.6,0,1.2-.23,1.66-.69l42.64-42.64s.05,0,.04,.02l-22.19,56.07c-.48,1.21,.11,2.57,1.32,3.05,.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49l21.83-55.15s.04-.02,.04,0v59.19c0,1.24,.9,2.35,2.14,2.46,1.39,.12,2.56-.97,2.56-2.34v-59.89s.03-.03,.04,0l23.03,55.29c.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18,1.2-.5,1.76-1.88,1.27-3.07l-22.98-55.17s.02-.04,.04-.02l42.26,42.26c.46,.46,1.06,.69,1.66,.69,.57,0,1.14-.21,1.59-.61,1-.91,.94-2.54-.02-3.49l-42.54-42.54s0-.05,.02-.04l56.07,22.19c.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49,.48-1.21-.11-2.57-1.32-3.05l-55.15-21.83s-.02-.04,0-.04h59.32c1.37,0,2.46-1.17,2.34-2.56-.11-1.23-1.22-2.14-2.46-2.14Z">
+                                </path>
+                            </g>
+                        </svg>
+                    </span>
+                    &nbsp;&nbsp; ON SALE NOW! &nbsp; &nbsp;
+                </span>
+                <span>
+                    <span class="inner--icon me--rotate">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 148.22 148.22">
+                            <g id="_2">
+                                <path
+                                    d="M145.74,71.76h-59.77s-.03-.03,0-.04l55.29-23.03c1.26-.53,1.82-2.03,1.18-3.27-.57-1.1-1.95-1.5-3.09-1.03l-55.06,22.94s-.04-.02-.02-.04L126.43,25.11c.88-.88,1.02-2.3,.23-3.25-.9-1.07-2.5-1.12-3.47-.16l-42.64,42.64s-.05,0-.04-.02L102.7,8.25c.48-1.21-.11-2.57-1.32-3.05-1.21-.48-2.57,.11-3.05,1.32l-21.83,55.15s-.04,.02-.04,0V2.47c0-1.24-.9-2.35-2.14-2.46-1.39-.12-2.56,.97-2.56,2.34V62.24s-.03,.03-.04,0L48.68,6.97c-.5-1.2-1.88-1.77-3.07-1.27-1.2,.5-1.76,1.88-1.27,3.07l22.98,55.17s-.02,.04-.04,.02L25.03,21.71c-.97-.97-2.57-.92-3.47,.16-.8,.95-.65,2.38,.23,3.25l42.55,42.55s0,.05-.02,.04L8.25,45.51c-1.21-.48-2.57,.11-3.05,1.32-.48,1.21,.11,2.57,1.32,3.05l55.15,21.83s.02,.04,0,.04H2.47c-1.24,0-2.35,.9-2.46,2.14-.12,1.39,.97,2.56,2.34,2.56H62.24s.03,.03,0,.04L6.97,99.53c-1.2,.5-1.76,1.88-1.27,3.07,.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18l55.17-22.98s.04,.02,.02,.04L21.8,123.09c-.96,.96-1.02,2.58-.02,3.49,.45,.41,1.02,.61,1.59,.61,.6,0,1.2-.23,1.66-.69l42.64-42.64s.05,0,.04,.02l-22.19,56.07c-.48,1.21,.11,2.57,1.32,3.05,.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49l21.83-55.15s.04-.02,.04,0v59.19c0,1.24,.9,2.35,2.14,2.46,1.39,.12,2.56-.97,2.56-2.34v-59.89s.03-.03,.04,0l23.03,55.29c.38,.9,1.25,1.45,2.17,1.45,.3,0,.61-.06,.9-.18,1.2-.5,1.76-1.88,1.27-3.07l-22.98-55.17s.02-.04,.04-.02l42.26,42.26c.46,.46,1.06,.69,1.66,.69,.57,0,1.14-.21,1.59-.61,1-.91,.94-2.54-.02-3.49l-42.54-42.54s0-.05,.02-.04l56.07,22.19c.28,.11,.58,.17,.86,.17,.94,0,1.82-.56,2.19-1.49,.48-1.21-.11-2.57-1.32-3.05l-55.15-21.83s-.02-.04,0-.04h59.32c1.37,0,2.46-1.17,2.34-2.56-.11-1.23-1.22-2.14-2.46-2.14Z">
+                                </path>
+                            </g>
+                        </svg>
+                    </span>
+                    &nbsp;&nbsp; ON SALE NOW! &nbsp; &nbsp;
+                </span>
+            </span>
+        </div>
+    </section>
+    <section>
+        <div class="discover-section limit-time-sec">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="discover-sec-svg">
+                        Limited-Time Deals on Our Bestsellers
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-2">
+                    <div class="discover-sec-text-btn">
+                        <p>Don’t miss the chance to upgrade your home with premium furniture at unbeatable prices. Our
+                            On Sale collection features some of our most popular pieces, now available at exclusive
+                            discounts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="feature-product-sec">
+
+            <div class="feature-product">
+                <div class="prod product1">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="shop-now">
+                        <p>Shop Now</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                            <path
+                                d="M460-620v-120H340v-40h120v-120h40v120h120v40H500v120h-40ZM292.31-115.38q-25.31 0-42.66-17.35-17.34-17.35-17.34-42.65 0-25.31 17.34-42.66 17.35-17.34 42.66-17.34 25.31 0 42.65 17.34 17.35 17.35 17.35 42.66 0 25.3-17.35 42.65-17.34 17.35-42.65 17.35Zm375.38 0q-25.31 0-42.65-17.35-17.35-17.35-17.35-42.65 0-25.31 17.35-42.66 17.34-17.34 42.65-17.34t42.66 17.34q17.34 17.35 17.34 42.66 0 25.3-17.34 42.65-17.35 17.35-42.66 17.35ZM80-820v-40h97.92l163.85 344.62h265.38q6.93 0 12.31-3.47 5.39-3.46 9.23-9.61L768.54-780h45.61L662.77-506.62q-8.69 14.62-22.61 22.93t-30.47 8.31H324l-48.62 89.23q-6.15 9.23-.38 20 5.77 10.77 17.31 10.77h435.38v40H292.31q-35 0-52.35-29.39-17.34-29.38-.73-59.38l60.15-107.23L152.31-820H80Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-name">
+                    <div class="name">AURA LAMP</div>
+                    <div class="pricee">$99.00</div>
+                </div>
+            </div>
+            <div class="feature-product">
+                <div class="prod product2">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="shop-now">
+                        <p>Shop Now</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                            <path
+                                d="M460-620v-120H340v-40h120v-120h40v120h120v40H500v120h-40ZM292.31-115.38q-25.31 0-42.66-17.35-17.34-17.35-17.34-42.65 0-25.31 17.34-42.66 17.35-17.34 42.66-17.34 25.31 0 42.65 17.34 17.35 17.35 17.35 42.66 0 25.3-17.35 42.65-17.34 17.35-42.65 17.35Zm375.38 0q-25.31 0-42.65-17.35-17.35-17.35-17.35-42.65 0-25.31 17.35-42.66 17.34-17.34 42.65-17.34t42.66 17.34q17.34 17.35 17.34 42.66 0 25.3-17.34 42.65-17.35 17.35-42.66 17.35ZM80-820v-40h97.92l163.85 344.62h265.38q6.93 0 12.31-3.47 5.39-3.46 9.23-9.61L768.54-780h45.61L662.77-506.62q-8.69 14.62-22.61 22.93t-30.47 8.31H324l-48.62 89.23q-6.15 9.23-.38 20 5.77 10.77 17.31 10.77h435.38v40H292.31q-35 0-52.35-29.39-17.34-29.38-.73-59.38l60.15-107.23L152.31-820H80Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-name">
+                    <div class="name">AURA LAMP</div>
+                    <div class="pricee">$99.00</div>
+                </div>
+            </div>
+            <div class="feature-product">
+                <div class="prod product3">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="shop-now">
+                        <p>Shop Now</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                            <path
+                                d="M460-620v-120H340v-40h120v-120h40v120h120v40H500v120h-40ZM292.31-115.38q-25.31 0-42.66-17.35-17.34-17.35-17.34-42.65 0-25.31 17.34-42.66 17.35-17.34 42.66-17.34 25.31 0 42.65 17.34 17.35 17.35 17.35 42.66 0 25.3-17.35 42.65-17.34 17.35-42.65 17.35Zm375.38 0q-25.31 0-42.65-17.35-17.35-17.35-17.35-42.65 0-25.31 17.35-42.66 17.34-17.34 42.65-17.34t42.66 17.34q17.34 17.35 17.34 42.66 0 25.3-17.34 42.65-17.35 17.35-42.66 17.35ZM80-820v-40h97.92l163.85 344.62h265.38q6.93 0 12.31-3.47 5.39-3.46 9.23-9.61L768.54-780h45.61L662.77-506.62q-8.69 14.62-22.61 22.93t-30.47 8.31H324l-48.62 89.23q-6.15 9.23-.38 20 5.77 10.77 17.31 10.77h435.38v40H292.31q-35 0-52.35-29.39-17.34-29.38-.73-59.38l60.15-107.23L152.31-820H80Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-name">
+                    <div class="name">AURA LAMP</div>
+                    <div class="pricee">$99.00</div>
+                </div>
+            </div>
+            <div class="feature-product">
+                <div class="prod product4">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="shop-now">
+                        <p>Shop Now</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                            <path
+                                d="M460-620v-120H340v-40h120v-120h40v120h120v40H500v120h-40ZM292.31-115.38q-25.31 0-42.66-17.35-17.34-17.35-17.34-42.65 0-25.31 17.34-42.66 17.35-17.34 42.66-17.34 25.31 0 42.65 17.34 17.35 17.35 17.35 42.66 0 25.3-17.35 42.65-17.34 17.35-42.65 17.35Zm375.38 0q-25.31 0-42.65-17.35-17.35-17.35-17.35-42.65 0-25.31 17.35-42.66 17.34-17.34 42.65-17.34t42.66 17.34q17.34 17.35 17.34 42.66 0 25.3-17.34 42.65-17.35 17.35-42.66 17.35ZM80-820v-40h97.92l163.85 344.62h265.38q6.93 0 12.31-3.47 5.39-3.46 9.23-9.61L768.54-780h45.61L662.77-506.62q-8.69 14.62-22.61 22.93t-30.47 8.31H324l-48.62 89.23q-6.15 9.23-.38 20 5.77 10.77 17.31 10.77h435.38v40H292.31q-35 0-52.35-29.39-17.34-29.38-.73-59.38l60.15-107.23L152.31-820H80Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-name">
+                    <div class="name">AURA LAMP</div>
+                    <div class="pricee">$99.00</div>
+                </div>
+            </div>
+            <div class="feature-product">
+                <div class="prod product5">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="shop-now">
+                        <p>Shop Now</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                            <path
+                                d="M460-620v-120H340v-40h120v-120h40v120h120v40H500v120h-40ZM292.31-115.38q-25.31 0-42.66-17.35-17.34-17.35-17.34-42.65 0-25.31 17.34-42.66 17.35-17.34 42.66-17.34 25.31 0 42.65 17.34 17.35 17.35 17.35 42.66 0 25.3-17.35 42.65-17.34 17.35-42.65 17.35Zm375.38 0q-25.31 0-42.65-17.35-17.35-17.35-17.35-42.65 0-25.31 17.35-42.66 17.34-17.34 42.65-17.34t42.66 17.34q17.34 17.35 17.34 42.66 0 25.3-17.34 42.65-17.35 17.35-42.66 17.35ZM80-820v-40h97.92l163.85 344.62h265.38q6.93 0 12.31-3.47 5.39-3.46 9.23-9.61L768.54-780h45.61L662.77-506.62q-8.69 14.62-22.61 22.93t-30.47 8.31H324l-48.62 89.23q-6.15 9.23-.38 20 5.77 10.77 17.31 10.77h435.38v40H292.31q-35 0-52.35-29.39-17.34-29.38-.73-59.38l60.15-107.23L152.31-820H80Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-name">
+                    <div class="name">AURA LAMP</div>
+                    <div class="pricee">$99.00</div>
+                </div>
+            </div>
+            <div class="feature-product">
+                <div class="prod product6">
+                    <div class="hert-icon">
+                        <svg fill="white" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="shop-now">
+                        <p>Shop Now</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                            <path
+                                d="M460-620v-120H340v-40h120v-120h40v120h120v40H500v120h-40ZM292.31-115.38q-25.31 0-42.66-17.35-17.34-17.35-17.34-42.65 0-25.31 17.34-42.66 17.35-17.34 42.66-17.34 25.31 0 42.65 17.34 17.35 17.35 17.35 42.66 0 25.3-17.35 42.65-17.34 17.35-42.65 17.35Zm375.38 0q-25.31 0-42.65-17.35-17.35-17.35-17.35-42.65 0-25.31 17.35-42.66 17.34-17.34 42.65-17.34t42.66 17.34q17.34 17.35 17.34 42.66 0 25.3-17.34 42.65-17.35 17.35-42.66 17.35ZM80-820v-40h97.92l163.85 344.62h265.38q6.93 0 12.31-3.47 5.39-3.46 9.23-9.61L768.54-780h45.61L662.77-506.62q-8.69 14.62-22.61 22.93t-30.47 8.31H324l-48.62 89.23q-6.15 9.23-.38 20 5.77 10.77 17.31 10.77h435.38v40H292.31q-35 0-52.35-29.39-17.34-29.38-.73-59.38l60.15-107.23L152.31-820H80Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-name">
+                    <div class="name">AURA LAMP</div>
+                    <div class="pricee">$99.00</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="decoration-products contact-section">
+            <div class="decoration-prod prod-1">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-5">
+                        <div class="dec-img doc-img-1">
+                            <img src="./imgs/privacy_image.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="offset-lg-1 col-lg-5">
+                        <div class="dec-title">
+                            COULDN'T FIND WHAT YOU ARE LOOKING FOR?
+                        </div>
+                        <div class="dec-text">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p> We’re here to help you create the home of your dreams. Whether you have
+                                        questions
+                                        about our products, need assistance with an order, or are looking for design
+                                        advice,
+                                        our team is ready to assist. Reach out today, and let’s make your space
+                                        extraordinary.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dec-btn">
+                            <button>Contact Us <i class="material-icons">arrow_forward</i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section>
+        <footer>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-logo-sec">
+                        <div class="logo">
+                            <img src="./imgs/site_logo_dark-02.svg" alt="">
+                        </div>
+                        <p>
+                            At Saren® Furniture, we are dedicated to bringing you beautifully crafted, high-quality
+                            furniture that transforms your home. With a passion for design and comfort, our collections
+                            are tailored to fit your unique style and enhance every space.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="offset-lg-1 col-lg-3">
+                    <div class="footer-menu">
+                        <ul>
+                            <li>HOME</li>
+                            <li>SHOP</li>
+                            <li>ABOUT US</li>
+                            <li>FAQ</li>
+                            <li>CONTACT</li>
+                        </ul>
+                        <ul class="lower-footer-menu">
+                            <li>Shipping</li>
+                            <li>Returns</li>
+                            <li>Privacy Policy</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-3">
+                    <div class="contact-detail">
+                        <ul>
+                            <li>
+                                <span>Contact Us</span>
+                                <i class="material-icons">arrow_forward</i>
+                            </li>
+                            <li>
+                                <p>49 Featherstone Street
+                                    EC1Y 8SY , London/UK</p>
+                            </li>
+                            <li>
+                                <div class="discover-sec-btn phone">
+                                    <button>+90 (448) 125 48 48</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="discover-sec-btn email">
+                                    <button>Shop@pethemes.com</button>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                        <ul>
+                            <li class="copy-right">
+                                <p>
+                                    ©2024 Saren® Furniture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -122,6 +900,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.16/dist/lenis.min.js"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
