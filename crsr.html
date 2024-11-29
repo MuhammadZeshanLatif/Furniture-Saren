@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Cursor</title>
+ <style>
+
+
+
+.cursor-outer, .cursor-inner {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+}
+
+.cursor-inner {
+  width: 8px;
+  height: 8px;
+  background-color: rgba(220, 90, 90, 1);
+  transition: transform 0.25s ease-out;
+}
+
+.cursor-outer {
+  width: 36px;
+  height: 36px;
+  background-color: rgba(220, 90, 90, 0.4);
+  transition: transform 0.15s ease-out;
+}
+
+ </style>
+</head>
+<body>
+  <div class="cursor-outer"></div>
+  <div class="cursor-inner"></div>
+
+  <section>
+    <h1>Animated Cursor <br />Vanilla JS</h1>
+    <hr />
+    <p>
+      An animated cursor component made with <b>JavaScript</b>, <b>CSS</b>, and <b>HTML</b>.
+      Hover over these <a href="#">links</a> and see the animated cursor.
+      Here's another <a href="#">link to nowhere</a>.
+    </p>
+  </section>
+  
+  <script>
+
+document.addEventListener("DOMContentLoaded", () => {
+  const cursorInner = document.querySelector(".cursor-inner");
+  const cursorOuter = document.querySelector(".cursor-outer");
+
+  let mouseX = 0, mouseY = 0;
+  let outerX = 0, outerY = 0;
+
+  // Track mouse position
+  document.addEventListener("mousemove", (event) => {
+    mouseX = event.clientX;
+    mouseY = event.clientY;
+
+    cursorInner.style.top = `${mouseY}px`;
+    cursorInner.style.left = `${mouseX}px`;
+  });
+
+  // Animate the outer cursor
+  function animateOuterCursor() {
+    outerX += (mouseX - outerX) / 8;
+    outerY += (mouseY - outerY) / 8;
+
+    cursorOuter.style.top = `${outerY}px`;
+    cursorOuter.style.left = `${outerX}px`;
+
+    requestAnimationFrame(animateOuterCursor);
+  }
+  requestAnimationFrame(animateOuterCursor);
+
+  // Mouse interactions
+  document.addEventListener("mousedown", () => {
+    cursorInner.style.transform = "scale(0.7)";
+    cursorOuter.style.transform = "scale(1.5)";
+  });
+
+  document.addEventListener("mouseup", () => {
+    cursorInner.style.transform = "scale(1)";
+    cursorOuter.style.transform = "scale(1)";
+  });
+
+  document.addEventListener("mouseenter", () => {
+    cursorInner.style.opacity = "1";
+    cursorOuter.style.opacity = "1";
+  });
+
+  document.addEventListener("mouseleave", () => {
+    cursorInner.style.opacity = "0";
+    cursorOuter.style.opacity = "0";
+  });
+
+  // Highlight interactive elements
+  const clickables = document.querySelectorAll("a, button, input, select, .link");
+  clickables.forEach((el) => {
+    el.addEventListener("mouseover", () => {
+      cursorInner.style.transform = "scale(1.2)";
+      cursorOuter.style.transform = "scale(2)";
+    });
+    el.addEventListener("mouseout", () => {
+      cursorInner.style.transform = "scale(1)";
+      cursorOuter.style.transform = "scale(1)";
+    });
+  });
+});
+
+  </script>
+</body>
+</html>
