@@ -108,6 +108,93 @@ document.addEventListener("DOMContentLoaded", () => {
       cursorOuter.style.opacity = "1";
     });
   });
+  const prod1 = document.querySelectorAll(".product1");
+  const prod2 = document.querySelectorAll(".product2");
+  const prod3 = document.querySelectorAll(".product3");
+  const prod4 = document.querySelectorAll(".product4");
+  const prod5 = document.querySelectorAll(".product5");
+  const prod6 = document.querySelectorAll(".product6");
+  const prod7 = document.querySelectorAll(".product7");
+  const prod8 = document.querySelectorAll(".product8");
+  const prod9 = document.querySelectorAll(".product9");
+  const prod10 = document.querySelectorAll(".product10");
+  const prod11 = document.querySelectorAll(".product11");
+  const prod12= document.querySelectorAll(".product12");
+
+prod1.forEach(item => {
+  item.addEventListener("mouseover", () => {
+    item.style.backgroundImage = "url('/imgs/imgs-2/furniture_product_13_3.webp')";
+  });
+  
+  item.addEventListener("mouseout", () => {
+    item.style.backgroundImage = ""; // Reset the background on mouse out
+  });
+});
+prod2.forEach(item => {
+  item.addEventListener("mouseover", () => {
+    item.style.backgroundImage = "url('/imgs/imgs-2/furniture_product_14_8-1.webp')";
+  });
+  
+  item.addEventListener("mouseout", () => {
+    item.style.backgroundImage = ""; // Reset the background on mouse out
+  });
+});
+prod3.forEach(item => {
+  item.addEventListener("mouseover", () => {
+    item.style.backgroundImage = "url('/imgs/imgs-2/furniture_product_15_3-1.webp')";
+  });
+  
+  item.addEventListener("mouseout", () => {
+    item.style.backgroundImage = ""; // Reset the background on mouse out
+  });
+});
+prod4.forEach(item => {
+  item.addEventListener("mouseover", () => {
+    item.style.backgroundImage = "url('/imgs/imgs-2/furniture_product_16_4.webp')";
+  });
+  
+  item.addEventListener("mouseout", () => {
+    item.style.backgroundImage = ""; // Reset the background on mouse out
+  });
+});
+prod5.forEach(item => {
+  item.addEventListener("mouseover", () => {
+    item.style.backgroundImage = "url('/imgs/imgs-2/furniture_product_17_4.webp')";
+  });
+  
+  item.addEventListener("mouseout", () => {
+    item.style.backgroundImage = ""; // Reset the background on mouse out
+  });
+});
+prod6.forEach(item => {
+  item.addEventListener("mouseover", () => {
+    item.style.backgroundImage = "url('/imgs/imgs-2/furniture_product_18_6-1.webp')";
+  });
+  
+  item.addEventListener("mouseout", () => {
+    item.style.backgroundImage = ""; // Reset the background on mouse out
+  });
+});
+prod12.forEach(item => {
+  item.addEventListener("mouseover", () => {
+    item.style.backgroundImage = "url('/imgs/imgs-2/furniture_product_17_4.webp')";
+  });
+  
+  item.addEventListener("mouseout", () => {
+    item.style.backgroundImage = ""; // Reset the background on mouse out
+  });
+});
+prod11.forEach(item => {
+  item.addEventListener("mouseover", () => {
+    item.style.backgroundImage = "url('/imgs/imgs-2/furniture_product_18_6-1.webp')";
+  });
+  
+  item.addEventListener("mouseout", () => {
+    item.style.backgroundImage = ""; // Reset the background on mouse out
+  });
+});
+
+ 
 });
 
 

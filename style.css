@@ -888,7 +888,3 @@ footer {
   transition: transform 0.15s ease-out;
 }
 
-img:hover .cursor-outer{
-  scale: 3;
-
-}
