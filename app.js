@@ -127,7 +127,7 @@ prod1.forEach(item => {
   });
   
   item.addEventListener("mouseout", () => {
-    item.style.backgroundImage = ""; // Reset the background on mouse out
+    item.style.backgroundImage = "./imgs/furniture_product_13_4.webp"; // Reset the background on mouse out
   });
 });
 prod2.forEach(item => {
@@ -147,7 +147,7 @@ prod3.forEach(item => {
   item.addEventListener("mouseout", () => {
     item.style.backgroundImage = ""; // Reset the background on mouse out
   });
-}); 
+});
 prod4.forEach(item => {
   item.addEventListener("mouseover", () => {
     item.style.backgroundImage = "url('/imgs/imgs-2/furniture_product_16_4.webp')";
