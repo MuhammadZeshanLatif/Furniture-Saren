@@ -127,7 +127,7 @@ prod1.forEach(item => {
   });
   
   item.addEventListener("mouseout", () => {
-    item.style.backgroundImage = ""; // Reset the background on mouse out
+    item.style.backgroundImage = ""; // Rset the background on mouse out
   });
 });
 prod2.forEach(item => {
